@@ -7,7 +7,7 @@
 
     "stack": "container",
   "env": {
-    "SESSION_ID": {
+    "SESSION_ID": {Subzero~KRQxkbyC#FYccvzBgJVqZL-QJ6X3LlCXrE_5DNkJwigsMBxFsilA
       "description": "Put the session-id here.",
       "required": true,
       "value": ""
@@ -15,7 +15,7 @@
     
     "ALIVE_IMG": {
       "description": "paste your image url if you don't have you can use this public url.",
-      "required": true,
+      "required": false,
       "value": "https://i.postimg.cc/m2jtqrBC/Screenshot-20241216-090753-Video-Maker.jpg"
     }, 
     
@@ -76,7 +76,7 @@
     "FAKE_RECORDING": {
       "description": "Make it true if you want bot fake record.",
       "required": true,
-      "value": "false"
+      "value": "true"
     },
 
     "AUTO_REACT": {
