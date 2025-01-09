@@ -22,7 +22,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "enter your subzero md session id here",
+SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~7MoWVYKY#2eu9tiYOi-x0zWtXCuoxlkT-MIWtJLFomlWJMF5vON4",
  
 PREFIX: process.env.PREFIX || ".",
 // Enter Your Desired Prefix
