@@ -79,9 +79,10 @@ const readMore = more.repeat(4001)
 
 cmd({
     pattern: "support",
+    alias : "version",
     desc: "subzero menu",
     category: "menu",
-    react: "📑",
+    react: "📡",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -97,17 +98,18 @@ let dec = `
 ▧ *ᴜᴘᴛɪᴍᴇ* : ${runtime(process.uptime())}
 
 ⟣──────────────────⟢
+
 > ＳＵＢＺＥＲＯ - ＭＤ- ＢＯＴ
 
 ⟣──────────────────⟢
 ${readMore}
-*CHANNEL*
+\`CHANNEL🛠️\`
 https://whatsapp.com/channel/0029VagQEmB002T7MWo3Sj1D
-${readMore}
-*GROUP*
+
+\`GROUP\` 👥
 https://chat.whatsapp.com/InsR5qk3cBsG2781A6uxcO
-${readMore}
-*Mr Frank OFC*
+
+\`Mr Frank OFC\` *Dev🧑‍💻*
 wa.me/263719647303?text=Support!
 
 ⟣──────────────────⟢
@@ -117,7 +119,7 @@ wa.me/263719647303?text=Support!
 await conn.sendMessage(
             from,
             {
-                image: { url: `https://i.postimg.cc/yNf7rQFw/prn.jpg` },
+                image: { url: `https://i.ibb.co/1m5x85V/mrfrankofc.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -125,7 +127,7 @@ await conn.sendMessage(
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363304325601080@newsletter',
-                        newsletterName: '❄️『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』❄️ ',
+                        newsletterName: '『 𝐒𝐔𝐁𝐙𝐄𝐑𝐎 𝐌𝐃 』',
                         serverMessageId: 143
                     }
                 }
@@ -135,7 +137,7 @@ await conn.sendMessage(
 
         // Send audio //https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3
         await conn.sendMessage(from, { //https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/blob/main/audios/subzero-menu.mp3
-            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-menu.mp3' },
+            audio: { url: 'https://github.com/mrfrank-ofc/SUBZERO-MD-DATABASE/raw/refs/heads/main/audios/subzero-theone.mp3' },
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
