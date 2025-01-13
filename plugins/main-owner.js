@@ -249,13 +249,13 @@ async (conn, mek, m, { from }) => {
 
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
-            image: { url: 'https://i.ibb.co/3zpNX7M/mrfrankofc.jpg' }, // Image URL from your request
+            image: { url: 'https://i.postimg.cc/vg1GZrP5/White-and-Green-Simple-Professional-Business-Project-Presentation-3.jpg' }, // Image URL from your request
             caption: `╭━━〔 *SUBZERO MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
 ┃◈┃• *Number* ${ownerNumber}
-┃◈┃• *Version*: 2.0.0
+┃◈┃• *Version*: 1.0.4
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 > © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍʀ ꜰʀᴀɴᴋ`, // Display the owner's details
