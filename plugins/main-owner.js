@@ -252,7 +252,7 @@ async (conn, mek, m, { from }) => {
             image: { url: 'https://i.postimg.cc/Tw01QQgN/White-and-Green-Simple-Professional-Business-Project-Presentation-3.jpg' }, // Image URL from your request
             caption: `╭━━〔 *SUBZERO MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• *Here is the owner details*
+┃◈┃• *Here are the owner details*
 ┃◈┃• *Name* - ${ownerName}
 ┃◈┃• *Number* ${ownerNumber}
 ┃◈┃• *Version*: 1.0.4
