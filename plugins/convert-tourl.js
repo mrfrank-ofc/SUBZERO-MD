@@ -1,220 +1,90 @@
-/*
-
-$$$$$$\            $$\                                               
-$$  __$$\           $$ |                                              
-$$ /  \__|$$\   $$\ $$$$$$$\  $$$$$$$$\  $$$$$$\   $$$$$$\   $$$$$$\  
-\$$$$$$\  $$ |  $$ |$$  __$$\ \____$$  |$$  __$$\ $$  __$$\ $$  __$$\ 
- \____$$\ $$ |  $$ |$$ |  $$ |  $$$$ _/ $$$$$$$$ |$$ |  \__|$$ /  $$ |
-$$\   $$ |$$ |  $$ |$$ |  $$ | $$  _/   $$   ____|$$ |      $$ |  $$ |
-\$$$$$$  |\$$$$$$  |$$$$$$$  |$$$$$$$$\ \$$$$$$$\ $$ |      \$$$$$$  |
- \______/  \______/ \_______/ \________| \_______|\__|       \______/
-
-Project Name : SubZero MD
-Creator      : Darrell Mucheri ( Mr Frank OFC )
-Repo         : https//github.com/mrfrank-ofc/SUBZERO-MD
-Support      : wa.me/18062212660
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const _0xab4259=_0x1280;(function(_0x56163f,_0x24b585){const _0x3300c5=_0x1280,_0x37d4fe=_0x56163f();while(!![]){try{const _0x1f8545=-parseInt(_0x3300c5(0x180))/0x1+parseInt(_0x3300c5(0x189))/0x2*(-parseInt(_0x3300c5(0x186))/0x3)+parseInt(_0x3300c5(0x18e))/0x4+-parseInt(_0x3300c5(0x18b))/0x5+parseInt(_0x3300c5(0x190))/0x6+-parseInt(_0x3300c5(0x18f))/0x7*(parseInt(_0x3300c5(0x18d))/0x8)+parseInt(_0x3300c5(0x1a0))/0x9*(parseInt(_0x3300c5(0x19a))/0xa);if(_0x1f8545===_0x24b585)break;else _0x37d4fe['push'](_0x37d4fe['shift']());}catch(_0x49789a){_0x37d4fe['push'](_0x37d4fe['shift']());}}}(_0x3646,0xa4cfe));function hi(){const _0x1ffaad=_0x1280;console[_0x1ffaad(0x181)]('Hello\x20World!');}function _0x1280(_0x3a9145,_0xc0e448){const _0x364692=_0x3646();return _0x1280=function(_0x128010,_0x144d72){_0x128010=_0x128010-0x17e;let _0xf85226=_0x364692[_0x128010];return _0xf85226;},_0x1280(_0x3a9145,_0xc0e448);}function _0x3646(){const _0x4b9b56=['723087IDlMYQ','https://api.imgbb.com/1/upload?key=06d00f0e4520243a32b58138765a2ecc','*SUBZERO-MD\x20IMG\x20URL\x20📸*\x0a\x20','../command','append','img2url','142438Ptwwky','log','path','\x0a\x0a>\x20*©\x20ᴜᴘʟᴏᴀᴅᴇᴅ\x20ʙʏ\x20sᴜʙᴢᴇʀᴏ\x20ᴍᴅ\x20❄️*','join','data','324366wUnIhL','imgtourl','.maid','22uTrJwG','mrfrankofc','4452265AhCien','unlinkSync','8Ivkwji','207188fLfLDF','878297DJfGkP','3846180VybwUJ','\x20Byte(s)\x0a\x20*URL-IMG*\x20🖇️\x20','image','tmpdir','url','_`🌻\x20Reply\x20To\x20image`_','❌\x20Error\x20al\x20subir\x20el\x20archivo','createReadStream','reply','quoted','290yWFHxC','anime','writeFileSync','msg','convert.','axios'];_0x3646=function(){return _0x4b9b56;};return _0x3646();}hi();const axios=require(_0xab4259(0x19f)),FormData=require('form-data'),fs=require('fs'),os=require('os'),path=require(_0xab4259(0x182)),{cmd,commands}=require(_0xab4259(0x1a3));cmd({'pattern':'tourl','alias':[_0xab4259(0x187),_0xab4259(0x17f),_0xab4259(0x194)],'react':'🖇','desc':_0xab4259(0x19e),'category':_0xab4259(0x19b),'use':_0xab4259(0x188),'filename':__filename},async(_0x2febcf,_0x29e62d,_0x70b4bd,{from:_0x1e3d52,mnu:_0x4ba4d6,quoted:_0x1ea9f7,body:_0x20aa52,isCmd:_0xe6373e,command:_0x55bee6,args:_0x532db7,q:_0x30b23b,isGroup:_0x5e4169,sender:_0x133c24,senderNumber:_0x223ac2,botNumber2:_0x41117e,botNumber:_0x1c8d68,pushname:_0x116483,isMe:_0x3b1d41,isOwner:_0x4eb05f,groupMetadata:_0x265936,groupName:_0x20faf9,participants:_0x23cb3e,groupAdmins:_0x2a6cf5,isBotAdmins:_0x38c947,isAdmins:_0x1c6d2f,reply:_0x4cd1a1})=>{const _0x3d849a=_0xab4259;try{let _0x124964=_0x70b4bd[_0x3d849a(0x199)]?_0x70b4bd[_0x3d849a(0x199)]:_0x70b4bd,_0x2697f0=(_0x124964[_0x3d849a(0x19d)]||_0x124964)['mimetype']||'';if(!_0x2697f0)throw _0x3d849a(0x195);let _0x596e03=await _0x124964['download'](),_0x234380=path[_0x3d849a(0x184)](os[_0x3d849a(0x193)](),_0x3d849a(0x18a));fs[_0x3d849a(0x19c)](_0x234380,_0x596e03);let _0x82228=new FormData();_0x82228[_0x3d849a(0x17e)](_0x3d849a(0x192),fs[_0x3d849a(0x197)](_0x234380));let _0x39c838=await axios['post'](_0x3d849a(0x1a1),_0x82228,{'headers':{..._0x82228['getHeaders']()}});if(!_0x39c838[_0x3d849a(0x185)]||!_0x39c838['data'][_0x3d849a(0x185)]||!_0x39c838[_0x3d849a(0x185)]['data'][_0x3d849a(0x194)])throw _0x3d849a(0x196);let _0x42c3a6=_0x39c838[_0x3d849a(0x185)][_0x3d849a(0x185)][_0x3d849a(0x194)];fs[_0x3d849a(0x18c)](_0x234380),_0x70b4bd[_0x3d849a(0x198)](_0x3d849a(0x1a2)+_0x596e03['length']+_0x3d849a(0x191)+_0x42c3a6+_0x3d849a(0x183));}catch(_0x54369b){_0x4cd1a1(''+_0x54369b),console['log'](_0x54369b);}});
+/*╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺
+    ⭐ＰＲＯＪＥＣＴ ＮＡＭＥ:
+    ＳＵＢＺＥＲＯ ＷＨＡＴＳＡＰＰ ＭＤ ＢＯＴ
+    
+    ⭐ＤＥＶＥＬＯＰＥＲ
+     ＭＲ ＦＲＡＮＫ 
+     
+    ⭐ ＭＹ ＴＥＡＭ
+     ＸＥＲＯ ＣＯＤＥＲＳ
+     
+    ⭐ ＯＵＲ ＷＥＢＳＩＴＥ
+     https://github.com/ZwSyntax/SUBZERO-MD
+
+© ＴＲＹ ＤＥＣＲＹＰＴＩＮＧ ＩＦ ＹＯＵ ＣＡＮ⚠
+
+╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺╺*/
+
+
+
+
+
+const axios = require("axios");
+const FormData = require('form-data');
+const fs = require('fs');
+const os = require('os');
+const path = require("path");
+const {
+  cmd,
+  commands
+} = require("../command");
+cmd({
+  'pattern': "tourl",
+  'alias': ["imgtourl", "img2url", "url"],
+  'react': '🖇',
+  'desc': "convert.",
+  'category': 'anime',
+  'use': ".maid",
+  'filename': __filename
+}, async (_0x5aa2a5, _0x3e4d2c, _0x4572c0, {
+  from: _0x3dbf21,
+  mnu: _0x5b9835,
+  quoted: _0x2aa830,
+  body: _0x102661,
+  isCmd: _0x458182,
+  command: _0x17afd2,
+  args: _0x584452,
+  q: _0x1e8526,
+  isGroup: _0x2ca4de,
+  sender: _0x59f221,
+  senderNumber: _0x4307ab,
+  botNumber2: _0x17667f,
+  botNumber: _0x359bfc,
+  pushname: _0x2b3b71,
+  isMe: _0xed0daf,
+  isOwner: _0x5d3e22,
+  groupMetadata: _0x169324,
+  groupName: _0x432187,
+  participants: _0x4c725d,
+  groupAdmins: _0x276007,
+  isBotAdmins: _0x13439b,
+  isAdmins: _0x1d0a9d,
+  reply: _0x2cab4a
+}) => {
+  try {
+    let _0x4f43a6 = _0x4572c0.quoted ? _0x4572c0.quoted : _0x4572c0;
+    let _0x2b3347 = (_0x4f43a6.msg || _0x4f43a6).mimetype || '';
+    if (!_0x2b3347) {
+      throw "_`🌻 Reply To image`_";
+    }
+    let _0x4fb74b = await _0x4f43a6.download();
+    let _0x45ad97 = path.join(os.tmpdir(), 'mrfrankofc');//ManulOfcX
+    fs.writeFileSync(_0x45ad97, _0x4fb74b);
+    let _0x807e20 = new FormData();
+    _0x807e20.append("image", fs.createReadStream(_0x45ad97));
+    let _0xf67b93 = await axios.post("https://api.imgbb.com/1/upload?key=e909ac2cc8d50250c08f176afef0e333", _0x807e20, {
+      'headers': {
+        ..._0x807e20.getHeaders()
+      }
+    });
+    if (!_0xf67b93.data || !_0xf67b93.data.data || !_0xf67b93.data.data.url) {
+      throw "❌ Error al subir el archivo";
+    }
+    let _0x56f6ae = _0xf67b93.data.data.url;
+    fs.unlinkSync(_0x45ad97);
+    _0x4572c0.reply("*ᴜᴘʟᴏᴀᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ*\n " + _0x4fb74b.length + " Byte(s)\n *URL-IMG* 🖇️ " + _0x56f6ae + "\n\n> *© ᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ sᴜʙᴢᴇʀᴏ ᴍᴅ❄️*");
+  } catch (_0x141b19) {
+    _0x2cab4a('' + _0x141b19);
+    console.log(_0x141b19);
+  }
+});
